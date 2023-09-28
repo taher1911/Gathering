@@ -30,7 +30,7 @@ export default function Home() {
           Origin: "http://localhost:3000/",
           "Access-Control-Allow-Origin": "*",
         },
-        mode: "no-cors", // no-cors, *cors, same-origin
+        mode: "cors", // no-cors, *cors, same-origin
       }
     );
     const data = await res.json();
